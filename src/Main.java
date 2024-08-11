@@ -24,7 +24,7 @@ public class Main {
             textoReescrito[i] = parteReescrita;
         }
         String[] partesEncriptada = new String[numeroColunas];
-        //Retorna a matriz inversa do texto reescrito, isso é, as colunas viraram linhas e vice-versa
+        //Retorna a matriz transposta do texto reescrito, isso é, as colunas viraram linhas e vice-versa
         for (int i = 0; i<numeroColunas;i++){
             String parteEncriptada = "";
             for (int j = 0; j < numeroLinhas; j++){
